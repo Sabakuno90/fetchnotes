@@ -1,0 +1,9 @@
+{
+  "name": "sna",
+  "scripts": {
+    "start": "node fetcher.js"
+  },
+  "dependencies": {
+    "axios": "^0.15.2"
+  }
+}
