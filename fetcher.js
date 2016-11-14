@@ -44,9 +44,8 @@ axios.get(`${base}/search/repositories?q=language:javascript&sort=stars`)
 
     axios.all(requests)
       .then(() => {
-        fs.writeFile('data/repos.csv', csv({ data: repos }), () => {})
-        fs.writeFile('data/users.csv', csv({ data: users }), () => {})
         fs.writeFile('data/edges.csv', csv({ data: edges }), () => {})
+        fs.writeFile('data/nodes.csv', csv({ data: nodes }), () => {})
 
         console.log('Wrote files')
       })
