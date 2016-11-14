@@ -4,6 +4,7 @@
     "start": "node fetcher.js"
   },
   "dependencies": {
-    "axios": "^0.15.2"
+    "axios": "^0.15.2",
+    "json2csv": "^3.7.1"
   }
 }

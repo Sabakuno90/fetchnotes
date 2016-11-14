@@ -1,10 +1,11 @@
 const axios = require('axios')
 const fs = require('fs')
+const csv = require('json2csv')
 
 const base = 'https://api.github.com'
 
-let repos = {}
-let users = {}
+let repos = []
+let users = []
 let edges = []
 
 axios.get(`${base}/search/repositories?q=language:javascript&sort=stars`)
@@ -13,19 +14,21 @@ axios.get(`${base}/search/repositories?q=language:javascript&sort=stars`)
     const requests = []
 
     rps.forEach(r => {
-      repos[r.id] = {
+      repos.push({
+        id: r.id,
         name: r.name,
         size: r.size
-      }
+      })
 
       console.log(`Added repo '${r.name}'`)
 
       requests.push(axios.get(r.contributors_url)
         .then(resp => {
           resp.data.forEach(c => {
-            users[c.id] = {
+            users.push({
+              id: c.id,
               name: c.login
-            }
+            })
 
             edges.push({
               source: r.id,
@@ -40,9 +43,9 @@ axios.get(`${base}/search/repositories?q=language:javascript&sort=stars`)
 
     axios.all(requests)
       .then(() => {
-        fs.writeFile('data/repos.json', JSON.stringify(repos), () => {})
-        fs.writeFile('data/users.json', JSON.stringify(users), () => {})
-        fs.writeFile('data/edges.json', JSON.stringify(edges), () => {})
+        fs.writeFile('data/repos.csv', csv({ data: repos }), () => {})
+        fs.writeFile('data/users.csv', csv({ data: users }), () => {})
+        fs.writeFile('data/edges.csv', csv({ data: edges }), () => {})
 
         console.log('Wrote files')
       })
