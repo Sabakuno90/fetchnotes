@@ -36,9 +36,9 @@ axios.get(`${base}/search/repositories?q=language:${process.argv[2]}&sort=stars`
               target: r.id,
               weight: c.contributions
             })
-
-            console.log(`Added contributors and edges for repo '${r.name}'`)
           })
+
+          console.log(`Added contributors and edges for repo '${r.name}'`)
         }))
     })
 
