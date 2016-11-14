@@ -4,8 +4,7 @@ const csv = require('json2csv')
 
 const base = 'https://api.github.com'
 
-let repos = []
-let users = []
+let nodes = []
 let edges = []
 
 axios.get(`${base}/search/repositories?q=language:javascript&sort=stars`)
@@ -14,10 +13,11 @@ axios.get(`${base}/search/repositories?q=language:javascript&sort=stars`)
     const requests = []
 
     rps.forEach(r => {
-      repos.push({
-        id: r.id,
-        name: r.name,
-        size: r.size
+      nodes.push({
+        Id: r.id,
+        Label: r.name,
+        size: r.size,
+        type: 'repo'
       })
 
       console.log(`Added repo '${r.name}'`)
@@ -25,9 +25,10 @@ axios.get(`${base}/search/repositories?q=language:javascript&sort=stars`)
       requests.push(axios.get(r.contributors_url)
         .then(resp => {
           resp.data.forEach(c => {
-            users.push({
-              id: c.id,
-              name: c.login
+            nodes.push({
+              Id: c.id,
+              Label: c.login,
+              type: 'user'
             })
 
             edges.push({
