@@ -7,9 +7,9 @@ const base = 'https://api.github.com'
 let nodes = []
 let edges = []
 
-axios.get(`${base}/search/repositories?q=language:javascript&sort=stars`)
+axios.get(`${base}/search/repositories?q=language:${process.argv[2]}&sort=stars`)
   .then(res => {
-    const rps = res.data.items.slice(0, 5)
+    const rps = res.data.items.slice(0, 30)
     const requests = []
 
     rps.forEach(r => {
@@ -32,8 +32,8 @@ axios.get(`${base}/search/repositories?q=language:javascript&sort=stars`)
             })
 
             edges.push({
-              source: r.id,
-              target: c.id,
+              source: c.id,
+              target: r.id,
               weight: c.contributions
             })
 
