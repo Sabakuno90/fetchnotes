@@ -4,7 +4,7 @@ const csv = require('json2csv')
 const chalk = require('chalk')
 
 const base = 'https://api.github.com'
-const langs = process.argv[2].split(',')
+const langs = process.argv[2] && process.argv[2].split(',') || [ 'javascript', 'java', 'python', 'css', 'php', 'ruby', 'c++', 'c', 'shell', 'c#' ]
 
 let nodes = []
 let edges = []
