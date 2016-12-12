@@ -23,8 +23,16 @@ const fetch = () => {
       rps.forEach(r => {
         nodes.push({
           Id: r.id,
-          Label: r.name,
+          Label: r.full_name,
           size: r.size,
+          fork: r.fork,
+          forks: r.forks,
+          stars: r.stargazers_count,
+          issues: r.open_issues_count,
+          owner: r.owner.type,
+          language: r.language,
+          created: r.created_at,
+          updated: r.updated_at,
           type: 'repo'
         })
 
