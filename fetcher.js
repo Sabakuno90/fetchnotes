@@ -9,6 +9,8 @@ const langs = process.argv[2] && process.argv[2].split(',') || [ 'javascript', '
 let nodes = []
 let edges = []
 
+let counter = 0
+
 const fetch = () => {
   const lang = langs.shift()
 
@@ -17,7 +19,7 @@ const fetch = () => {
 
   axios.get(`${base}/search/repositories?q=language:${lang}&sort=stars`)
     .then(res => {
-      const rps = res.data.items.slice(0, 60)
+      const rps = res.data.items.slice(0, 30)
       const requests = []
 
       rps.forEach(r => {
@@ -50,21 +52,22 @@ const fetch = () => {
                 target: r.id,
                 weight: c.contributions
               })
-
-              console.log(`${chalk.yellow('·')} Added repo '${r.name}'.`)
             })
+
+            console.log(`${chalk.yellow('·')} Added repo '${r.name}'.`)
           })
         )
       })
 
       axios.all(requests)
         .then(() => {
-          fs.writeFile('data/edges.csv', csv({ data: edges }), () => {})
-          fs.writeFile('data/nodes.csv', csv({ data: nodes }), () => {})
+          fs.writeFile(`data/edges-${lang}.csv`, csv({ data: edges }), () => {})
+          fs.writeFile(`data/nodes-${lang}.csv`, csv({ data: nodes }), () => {})
 
           console.log(`\n${chalk.green('✓')} Wrote files\n`)
 
-          setTimeout(() => langs.length && fetch(), 3600000)
+          setTimeout(() => langs.length && fetch(), (counter % 2) * 3600000)
+          counter += 1
         })
         .catch(() => {
           console.log(`${chalk.red('ERROR')} Could not retrieve data due to rate limiting issue.`)
