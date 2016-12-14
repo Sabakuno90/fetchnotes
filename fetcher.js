@@ -4,18 +4,18 @@ const csv = require('json2csv')
 const chalk = require('chalk')
 
 const base = 'https://api.github.com'
-const langs = process.argv[2] && process.argv[2].split(',') || [ 'javascript', 'java', 'python', 'css', 'php', 'ruby', 'c++', 'c', 'shell', 'c#' ]
+const clientID = '2a80f2fb987bb1ac87ed'
+const clientSecret = '519bab2e1d76ce2dfa130a7ba0a52eef5bee377e'
 
-let nodes = []
-let edges = []
-
-let counter = 0
+const langs = process.argv[2] && process.argv[2].split(',') || [ 'javascript', 'java', 'python', 'php', 'ruby', 'haskell', 'lisp', 'swift' ]
 
 const fetch = () => {
   const lang = langs.shift()
 
-  console.log(`Fetching repositories for language '${lang}'.`)
-  console.log('================================================================================\n')
+  let nodes = []
+  let edges = []
+
+  console.log(`${chalk.blue(`[${lang}]`)}${' '.repeat(11 - lang.length) || ''}\tFetching popular repositories`)
 
   axios.get(`${base}/search/repositories?q=language:${lang}&sort=stars`)
     .then(res => {
@@ -38,7 +38,7 @@ const fetch = () => {
           type: 'repo'
         })
 
-        requests.push(axios.get(r.contributors_url)
+        requests.push(axios.get(`${r.contributors_url}?client_id=${clientID}&client_secret=${clientSecret}`)
           .then(resp => {
             resp.data.forEach(c => {
               nodes.push({
@@ -54,7 +54,7 @@ const fetch = () => {
               })
             })
 
-            console.log(`${chalk.yellow('·')} Added repo '${r.name}'.`)
+            console.log(`${chalk.yellow(`[${lang}]`)}${' '.repeat(11 - lang.length) || ''}\tAdded repo '${r.name}'`)
           })
         )
       })
@@ -64,18 +64,13 @@ const fetch = () => {
           fs.writeFile(`data/edges-${lang}.csv`, csv({ data: edges }), () => {})
           fs.writeFile(`data/nodes-${lang}.csv`, csv({ data: nodes }), () => {})
 
-          console.log(`\n${chalk.green('✓')} Wrote files\n`)
-
-          setTimeout(() => langs.length && fetch(), (counter % 2) * 3600000)
-          counter += 1
+          console.log(`${chalk.green(`[${lang}]`)}${' '.repeat(11 - lang.length) || ''}\tWrote files`)
         })
-        .catch(() => {
-          console.log(`${chalk.red('ERROR')} Could not retrieve data due to rate limiting issue.`)
-        })
+        .catch(() => {})
     })
-    .catch(err => {
-      console.log(`${chalk.red('ERROR')} Could not retrieve data due to rate limiting issue.`)
-    })
+    .catch(() => {})
 }
 
-fetch()
+while (langs.length) {
+  fetch()
+}
