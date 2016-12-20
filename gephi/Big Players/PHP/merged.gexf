@@ -1,0 +1,1509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2016-12-20">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" idtype="integer" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="issues" title="issues" type="string"></attribute>
+      <attribute id="size" title="size" type="string"></attribute>
+      <attribute id="updated" title="updated" type="string"></attribute>
+      <attribute id="reposize" title="RepoSize" type="integer"></attribute>
+      <attribute id="fork" title="fork" type="string"></attribute>
+      <attribute id="created" title="created" type="string"></attribute>
+      <attribute id="type" title="type" type="string"></attribute>
+      <attribute id="language" title="language" type="string"></attribute>
+      <attribute id="owner" title="owner" type="string"></attribute>
+      <attribute id="stars" title="stars" type="string"></attribute>
+      <attribute id="forks" title="forks" type="string"></attribute>
+    </attributes>
+    <nodes>
+      <node id="28" label="owncloud/core">
+        <attvalues>
+          <attvalue for="issues" value="1722"></attvalue>
+          <attvalue for="size" value="218492"></attvalue>
+          <attvalue for="updated" value="2016-12-14T06:29:21Z"></attvalue>
+          <attvalue for="reposize" value="218492"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2012-08-25T10:32:48Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="stars" value="4978"></attvalue>
+          <attvalue for="forks" value="1611"></attvalue>
+        </attvalues>
+        <viz:size value="100.00001"></viz:size>
+        <viz:position x="310.6943" y="-583.29004"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="8" label="WordPress/WordPress">
+        <attvalues>
+          <attvalue for="issues" value="23"></attvalue>
+          <attvalue for="size" value="167953"></attvalue>
+          <attvalue for="updated" value="2016-12-14T08:19:22Z"></attvalue>
+          <attvalue for="reposize" value="167953"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2011-12-01T07:05:17Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="stars" value="8401"></attvalue>
+          <attvalue for="forks" value="4366"></attvalue>
+        </attvalues>
+        <viz:size value="77.58202"></viz:size>
+        <viz:position x="533.148" y="-555.6277"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="18" label="piwik/piwik">
+        <attvalues>
+          <attvalue for="issues" value="1375"></attvalue>
+          <attvalue for="size" value="167003"></attvalue>
+          <attvalue for="updated" value="2016-12-13T21:51:29Z"></attvalue>
+          <attvalue for="reposize" value="167003"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2011-03-30T21:18:17Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="stars" value="6425"></attvalue>
+          <attvalue for="forks" value="1127"></attvalue>
+        </attvalues>
+        <viz:size value="77.16062"></viz:size>
+        <viz:position x="-26.67073" y="421.77722"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="10" label="phacility/phabricator">
+        <attvalues>
+          <attvalue for="issues" value="0"></attvalue>
+          <attvalue for="size" value="122303"></attvalue>
+          <attvalue for="updated" value="2016-12-14T07:57:26Z"></attvalue>
+          <attvalue for="reposize" value="122303"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2011-01-21T22:08:29Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="stars" value="7895"></attvalue>
+          <attvalue for="forks" value="1089"></attvalue>
+        </attvalues>
+        <viz:size value="57.3327"></viz:size>
+        <viz:position x="-793.3725" y="-144.1218"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="12" label="phalcon/cphalcon">
+        <attvalues>
+          <attvalue for="issues" value="754"></attvalue>
+          <attvalue for="size" value="120941"></attvalue>
+          <attvalue for="updated" value="2016-12-14T07:31:08Z"></attvalue>
+          <attvalue for="reposize" value="120941"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2011-11-26T05:52:50Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="User"></attvalue>
+          <attvalue for="stars" value="7466"></attvalue>
+          <attvalue for="forks" value="1411"></attvalue>
+        </attvalues>
+        <viz:size value="56.728542"></viz:size>
+        <viz:position x="274.01556" y="-754.5762"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="2" label="bcit-ci/CodeIgniter">
+        <attvalues>
+          <attvalue for="issues" value="82"></attvalue>
+          <attvalue for="size" value="93743"></attvalue>
+          <attvalue for="updated" value="2016-12-14T07:57:41Z"></attvalue>
+          <attvalue for="reposize" value="93743"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2011-08-19T13:34:00Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="stars" value="13490"></attvalue>
+          <attvalue for="forks" value="6598"></attvalue>
+        </attvalues>
+        <viz:size value="44.664112"></viz:size>
+        <viz:position x="203.9574" y="-473.42514"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="3" label="symfony/symfony">
+        <attvalues>
+          <attvalue for="issues" value="844"></attvalue>
+          <attvalue for="size" value="81149"></attvalue>
+          <attvalue for="updated" value="2016-12-14T09:01:25Z"></attvalue>
+          <attvalue for="reposize" value="81149"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2010-01-04T14:21:21Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="stars" value="13435"></attvalue>
+          <attvalue for="forks" value="5219"></attvalue>
+        </attvalues>
+        <viz:size value="39.077694"></viz:size>
+        <viz:position x="-110.192505" y="587.6953"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="15" label="cakephp/cakephp">
+        <attvalues>
+          <attvalue for="issues" value="183"></attvalue>
+          <attvalue for="size" value="67513"></attvalue>
+          <attvalue for="updated" value="2016-12-14T07:59:42Z"></attvalue>
+          <attvalue for="reposize" value="67513"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2010-05-08T14:38:22Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="stars" value="6829"></attvalue>
+          <attvalue for="forks" value="3089"></attvalue>
+        </attvalues>
+        <viz:size value="33.02906"></viz:size>
+        <viz:position x="-624.9607" y="-79.82529"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="30" label="yiisoft/yii">
+        <attvalues>
+          <attvalue for="issues" value="330"></attvalue>
+          <attvalue for="size" value="43011"></attvalue>
+          <attvalue for="updated" value="2016-12-13T19:39:32Z"></attvalue>
+          <attvalue for="reposize" value="43011"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2012-02-15T16:26:22Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="stars" value="4700"></attvalue>
+          <attvalue for="forks" value="2040"></attvalue>
+        </attvalues>
+        <viz:size value="22.160519"></viz:size>
+        <viz:position x="-499.6604" y="611.6343"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="6" label="yiisoft/yii2">
+        <attvalues>
+          <attvalue for="issues" value="720"></attvalue>
+          <attvalue for="size" value="42217"></attvalue>
+          <attvalue for="updated" value="2016-12-14T07:57:52Z"></attvalue>
+          <attvalue for="reposize" value="42217"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2012-02-13T15:32:36Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="stars" value="9274"></attvalue>
+          <attvalue for="forks" value="5351"></attvalue>
+        </attvalues>
+        <viz:size value="21.80832"></viz:size>
+        <viz:position x="-399.42538" y="726.8411"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="25" label="octobercms/october">
+        <attvalues>
+          <attvalue for="issues" value="231"></attvalue>
+          <attvalue for="size" value="34213"></attvalue>
+          <attvalue for="updated" value="2016-12-14T02:53:46Z"></attvalue>
+          <attvalue for="reposize" value="34213"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2013-11-26T23:30:43Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="stars" value="5389"></attvalue>
+          <attvalue for="forks" value="1319"></attvalue>
+        </attvalues>
+        <viz:size value="18.257923"></viz:size>
+        <viz:position x="80.82233" y="-980.0417"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="23" label="twostairs/paperwork">
+        <attvalues>
+          <attvalue for="issues" value="133"></attvalue>
+          <attvalue for="size" value="28722"></attvalue>
+          <attvalue for="updated" value="2016-12-14T00:07:21Z"></attvalue>
+          <attvalue for="reposize" value="28722"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2014-07-03T13:42:20Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="stars" value="5473"></attvalue>
+          <attvalue for="forks" value="524"></attvalue>
+        </attvalues>
+        <viz:size value="15.822238"></viz:size>
+        <viz:position x="-969.6873" y="71.32875"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="14" label="PHPOffice/PHPExcel">
+        <attvalues>
+          <attvalue for="issues" value="561"></attvalue>
+          <attvalue for="size" value="26672"></attvalue>
+          <attvalue for="updated" value="2016-12-14T07:58:05Z"></attvalue>
+          <attvalue for="reposize" value="26672"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2012-06-18T15:30:27Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="stars" value="7327"></attvalue>
+          <attvalue for="forks" value="2472"></attvalue>
+        </attvalues>
+        <viz:size value="14.912904"></viz:size>
+        <viz:position x="894.4402" y="399.11353"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="19" label="laravel/framework">
+        <attvalues>
+          <attvalue for="issues" value="90"></attvalue>
+          <attvalue for="size" value="26094"></attvalue>
+          <attvalue for="updated" value="2016-12-14T09:03:08Z"></attvalue>
+          <attvalue for="reposize" value="26094"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2013-01-10T21:27:28Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="stars" value="6326"></attvalue>
+          <attvalue for="forks" value="3799"></attvalue>
+        </attvalues>
+        <viz:size value="14.656515"></viz:size>
+        <viz:position x="175.8884" y="19.430437"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="24" label="CachetHQ/Cachet">
+        <attvalues>
+          <attvalue for="issues" value="67"></attvalue>
+          <attvalue for="size" value="25326"></attvalue>
+          <attvalue for="updated" value="2016-12-14T08:56:29Z"></attvalue>
+          <attvalue for="reposize" value="25326"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2014-11-16T22:23:11Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="stars" value="5393"></attvalue>
+          <attvalue for="forks" value="635"></attvalue>
+        </attvalues>
+        <viz:size value="14.3158455"></viz:size>
+        <viz:position x="-83.6269" y="-170.585"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="1" label="laravel/laravel">
+        <attvalues>
+          <attvalue for="issues" value="27"></attvalue>
+          <attvalue for="size" value="25319"></attvalue>
+          <attvalue for="updated" value="2016-12-14T09:03:21Z"></attvalue>
+          <attvalue for="reposize" value="25319"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2011-06-08T03:06:08Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="stars" value="27760"></attvalue>
+          <attvalue for="forks" value="9213"></attvalue>
+        </attvalues>
+        <viz:size value="14.31274"></viz:size>
+        <viz:position x="330.65994" y="16.450296"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="7" label="composer/composer">
+        <attvalues>
+          <attvalue for="issues" value="201"></attvalue>
+          <attvalue for="size" value="23525"></attvalue>
+          <attvalue for="updated" value="2016-12-14T07:57:55Z"></attvalue>
+          <attvalue for="reposize" value="23525"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2011-06-08T08:53:00Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="stars" value="8551"></attvalue>
+          <attvalue for="forks" value="2382"></attvalue>
+        </attvalues>
+        <viz:size value="13.516964"></viz:size>
+        <viz:position x="213.48831" y="629.2315"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="20" label="sebastianbergmann/phpunit">
+        <attvalues>
+          <attvalue for="issues" value="160"></attvalue>
+          <attvalue for="size" value="19865"></attvalue>
+          <attvalue for="updated" value="2016-12-14T03:41:15Z"></attvalue>
+          <attvalue for="reposize" value="19865"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2009-12-24T13:16:23Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="User"></attvalue>
+          <attvalue for="stars" value="5636"></attvalue>
+          <attvalue for="forks" value="1324"></attvalue>
+        </attvalues>
+        <viz:size value="11.893467"></viz:size>
+        <viz:position x="546.12286" y="324.6854"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="5" label="fzaninotto/Faker">
+        <attvalues>
+          <attvalue for="issues" value="60"></attvalue>
+          <attvalue for="size" value="11661"></attvalue>
+          <attvalue for="updated" value="2016-12-14T07:57:50Z"></attvalue>
+          <attvalue for="reposize" value="11661"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2011-10-14T22:49:02Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="User"></attvalue>
+          <attvalue for="stars" value="9848"></attvalue>
+          <attvalue for="forks" value="1535"></attvalue>
+        </attvalues>
+        <viz:size value="8.2543545"></viz:size>
+        <viz:position x="-290.81485" y="-131.27827"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="21" label="getgrav/grav">
+        <attvalues>
+          <attvalue for="issues" value="88"></attvalue>
+          <attvalue for="size" value="10036"></attvalue>
+          <attvalue for="updated" value="2016-12-14T08:52:31Z"></attvalue>
+          <attvalue for="reposize" value="10036"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2014-08-02T18:29:10Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="stars" value="5609"></attvalue>
+          <attvalue for="forks" value="475"></attvalue>
+        </attvalues>
+        <viz:size value="7.5335407"></viz:size>
+        <viz:position x="-768.63385" y="-317.7577"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="13" label="slimphp/Slim">
+        <attvalues>
+          <attvalue for="issues" value="98"></attvalue>
+          <attvalue for="size" value="9414"></attvalue>
+          <attvalue for="updated" value="2016-12-14T07:36:09Z"></attvalue>
+          <attvalue for="reposize" value="9414"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2010-09-21T01:17:06Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="stars" value="7443"></attvalue>
+          <attvalue for="forks" value="1464"></attvalue>
+        </attvalues>
+        <viz:size value="7.2576356"></viz:size>
+        <viz:position x="-127.56221" y="-325.505"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="9" label="guzzle/guzzle">
+        <attvalues>
+          <attvalue for="issues" value="75"></attvalue>
+          <attvalue for="size" value="8406"></attvalue>
+          <attvalue for="updated" value="2016-12-14T07:58:01Z"></attvalue>
+          <attvalue for="reposize" value="8406"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2011-02-28T02:44:05Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="stars" value="8153"></attvalue>
+          <attvalue for="forks" value="1274"></attvalue>
+        </attvalues>
+        <viz:size value="6.8105097"></viz:size>
+        <viz:position x="117.53567" y="300.53824"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="11" label="PHPMailer/PHPMailer">
+        <attvalues>
+          <attvalue for="issues" value="57"></attvalue>
+          <attvalue for="size" value="5179"></attvalue>
+          <attvalue for="updated" value="2016-12-14T09:06:54Z"></attvalue>
+          <attvalue for="reposize" value="5179"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2011-08-23T07:57:17Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="stars" value="7593"></attvalue>
+          <attvalue for="forks" value="4350"></attvalue>
+        </attvalues>
+        <viz:size value="5.379083"></viz:size>
+        <viz:position x="-780.92065" y="-555.7734"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="4" label="domnikl/DesignPatternsPHP">
+        <attvalues>
+          <attvalue for="issues" value="5"></attvalue>
+          <attvalue for="size" value="5166"></attvalue>
+          <attvalue for="updated" value="2016-12-14T07:57:45Z"></attvalue>
+          <attvalue for="reposize" value="5166"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2011-08-22T05:24:31Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="User"></attvalue>
+          <attvalue for="stars" value="11263"></attvalue>
+          <attvalue for="forks" value="2395"></attvalue>
+        </attvalues>
+        <viz:size value="5.3733177"></viz:size>
+        <viz:position x="-810.5161" y="27.768827"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="17" label="serbanghita/Mobile-Detect">
+        <attvalues>
+          <attvalue for="issues" value="149"></attvalue>
+          <attvalue for="size" value="4383"></attvalue>
+          <attvalue for="updated" value="2016-12-14T01:48:03Z"></attvalue>
+          <attvalue for="reposize" value="4383"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2012-08-31T10:58:16Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="User"></attvalue>
+          <attvalue for="stars" value="6515"></attvalue>
+          <attvalue for="forks" value="1777"></attvalue>
+        </attvalues>
+        <viz:size value="5.025996"></viz:size>
+        <viz:position x="441.0911" y="-686.62994"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="16" label="phanan/koel">
+        <attvalues>
+          <attvalue for="issues" value="22"></attvalue>
+          <attvalue for="size" value="3894"></attvalue>
+          <attvalue for="updated" value="2016-12-14T08:19:16Z"></attvalue>
+          <attvalue for="reposize" value="3894"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2015-12-06T12:13:19Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="User"></attvalue>
+          <attvalue for="stars" value="6749"></attvalue>
+          <attvalue for="forks" value="618"></attvalue>
+        </attvalues>
+        <viz:size value="4.8090863"></viz:size>
+        <viz:position x="-551.8475" y="-790.3199"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="29" label="FriendsOfPHP/Goutte">
+        <attvalues>
+          <attvalue for="issues" value="56"></attvalue>
+          <attvalue for="size" value="3206"></attvalue>
+          <attvalue for="updated" value="2016-12-14T04:22:23Z"></attvalue>
+          <attvalue for="reposize" value="3206"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2010-04-21T19:21:54Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="stars" value="4730"></attvalue>
+          <attvalue for="forks" value="644"></attvalue>
+        </attvalues>
+        <viz:size value="4.5039043"></viz:size>
+        <viz:position x="425.31305" y="180.82841"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="26" label="briannesbitt/Carbon">
+        <attvalues>
+          <attvalue for="issues" value="82"></attvalue>
+          <attvalue for="size" value="2461"></attvalue>
+          <attvalue for="updated" value="2016-12-14T06:16:51Z"></attvalue>
+          <attvalue for="reposize" value="2461"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2012-09-08T02:56:20Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="User"></attvalue>
+          <attvalue for="stars" value="4988"></attvalue>
+          <attvalue for="forks" value="629"></attvalue>
+        </attvalues>
+        <viz:size value="4.1734385"></viz:size>
+        <viz:position x="353.6102" y="326.22592"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="27" label="dingo/api">
+        <attvalues>
+          <attvalue for="issues" value="126"></attvalue>
+          <attvalue for="size" value="2110"></attvalue>
+          <attvalue for="updated" value="2016-12-14T07:24:40Z"></attvalue>
+          <attvalue for="reposize" value="2110"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2014-04-11T12:31:18Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="stars" value="4983"></attvalue>
+          <attvalue for="forks" value="741"></attvalue>
+        </attvalues>
+        <viz:size value="4.017743"></viz:size>
+        <viz:position x="-445.7834" y="-224.99898"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="22" label="Seldaek/monolog">
+        <attvalues>
+          <attvalue for="issues" value="16"></attvalue>
+          <attvalue for="size" value="2070"></attvalue>
+          <attvalue for="updated" value="2016-12-14T06:08:13Z"></attvalue>
+          <attvalue for="reposize" value="2070"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="created" value="2011-02-17T02:07:15Z"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+          <attvalue for="language" value="PHP"></attvalue>
+          <attvalue for="owner" value="User"></attvalue>
+          <attvalue for="stars" value="5531"></attvalue>
+          <attvalue for="forks" value="1035"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-316.3632" y="551.5634"></viz:position>
+        <viz:color r="60" g="242" b="242"></viz:color>
+      </node>
+      <node id="39" label="hpbuniat">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="624.02954" y="-178.0829"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="44" label="vlakoff">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="46.927517" y="-494.36713"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="61" label="jasonlewis">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-281.57562" y="-291.188"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="63" label="lucasmichot">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.34131" y="120.69897"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="65" label="GrahamCampbell">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="60.88579" y="136.72818"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="81" label="driesvints">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-431.50052" y="-539.78986"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="87" label="crynobone">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="36.087982" y="-314.25604"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="91" label="MarkBaker">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="668.9685" y="5.247902"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="121" label="fabpot">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="249.63748" y="192.95084"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="122" label="everzet">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="241.96515" y="790.1407"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="124" label="mtdowling">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="36.394543" y="679.3297"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="126" label="hason">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-65.84433" y="271.69147"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="130" label="thewilkybarkid">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="286.49927" y="-141.21936"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="132" label="stof">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="218.55261" y="426.39767"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="133" label="keradus">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="838.1139" y="6.7608767"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="135" label="igorw">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="495.83246" y="477.5483"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="149" label="fabian">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="113.65974" y="-152.55086"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="153" label="glensc">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-617.2767" y="-238.4585"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="166" label="aranaur">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-695.6238" y="-700.34705"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="183" label="pedroborges">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-471.92245" y="-382.6023"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="200" label="PeterDaveHello">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-252.08995" y="-623.6393"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="203" label="icewind1991">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-223.6119" y="-784.2215"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="237" label="anlutro">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-502.39197" y="86.730965"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="272" label="mnapoli">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-444.7248" y="-59.03581"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="305" label="localheinz">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-354.89404" y="388.36246"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="356" label="briannesbitt">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="463.75558" y="-142.61504"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="358" label="Anahkiasen">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="739.4717" y="316.75336"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="363" label="Newman101">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-3.2949908" y="-22.823057"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="366" label="cviebrock">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="609.1473" y="170.71971"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="380" label="acasar">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="389.50574" y="701.3691"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="382" label="barryvdh">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="663.5046" y="461.78494"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="413" label="Seldaek">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-107.99063" y="967.3573"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="415" label="pomaxa">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-328.7799" y="91.26402"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="421" label="JeroenDeDauw">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="246.06396" y="943.9181"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="423" label="naderman">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-505.584" y="433.3235"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="429" label="cordoval">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-247.87791" y="251.09831"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="437" label="pborreli">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-432.30133" y="246.19391"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="449" label="claylo">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="565.7536" y="797.0888"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="452" label="henriquemoody">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="935.5046" y="240.71591"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="496" label="qiangxue">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="62.358578" y="984.17596"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="497" label="samdark">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-686.6336" y="688.4053"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="498" label="cebe">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-888.87854" y="401.10385"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="499" label="klimov-paul">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="59.441074" y="833.0455"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="501" label="softark">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-724.15283" y="376.21652"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="502" label="creocoder">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-565.8909" y="798.12665"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="506" label="resurtm">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-262.19336" y="920.4901"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="525" label="suralc">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-809.589" y="559.6663"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="529" label="nineinchnick">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-600.428" y="263.11682"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="558" label="ericbarnes">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="402.30252" y="-443.08353"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="632" label="nicolas-grekas">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-111.61717" y="798.85205"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="634" label="Tobion">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-238.00784" y="710.25574"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="640" label="weaverryan">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="541.62067" y="634.3074"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="650" label="beberlei">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-191.85924" y="435.38702"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="684" label="taylorotwell">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-113.22069" y="-486.55646"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="685" label="daylerees">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="783.48566" y="160.87997"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="686" label="franzliedke">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="373.45798" y="-287.93765"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="690" label="JosephSilber">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="352.44083" y="523.05035"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="691" label="bencorlett">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="785.1976" y="-154.17287"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="698" label="themsaid">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="88.071075" y="521.2638"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="211" label="jbrooksuk">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="544.19116" y="-335.4252"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="267" label="mattab">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-662.3968" y="93.66136"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="268" label="tsteur">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="802.0231" y="545.0083"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="269" label="diosmosis">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="700.8756" y="675.475"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="270" label="robocoder">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-189.70064" y="-20.284569"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="271" label="sgiehl">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-411.07144" y="888.3374"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="327" label="rhukster">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-941.80194" y="-260.8621"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="383" label="daftspunk">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="116.89323" y="-653.9626"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="441" label="sebastianbergmann">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="417.47906" y="881.9247"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="466" label="epriestley">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-948.74664" y="233.62175"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="467" label="chadlittle">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-585.4626" y="-586.13446"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="553" label="narfbg">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-289.2808" y="-459.2615"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="603" label="DeepDiver1975">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="663.3648" y="-687.41956"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="604" label="PVince81">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="664.0535" y="-468.689"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="605" label="schiessle">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="507.19696" y="13.530868"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="606" label="LukasReschke">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-68.47752" y="-653.0739"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="607" label="MorrisJobke">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-401.70343" y="-709.83655"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="608" label="jancborchardt">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="560.6246" y="-807.3105"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="609" label="owncloud-bot">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="785.65643" y="-587.6002"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="610" label="blizzz">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="866.66486" y="-441.2567"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="611" label="bartv2">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-405.14963" y="-880.14294"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="612" label="nickvergessen">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="981.4888" y="58.96673"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="613" label="georgehrke">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="119.25783" y="-819.2841"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="633" label="webmozart">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-783.9192" y="217.03203"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="740" label="phalcon">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-90.29386" y="-970.1098"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="741" label="sjinks">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="736.8035" y="-322.72696"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="742" label="andresgutierrez">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-253.33476" y="-944.593"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="792" label="markstory">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="197.32228" y="-310.69464"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="793" label="lorenzo">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-966.447" y="-95.30648"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="794" label="ADmad">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-883.1132" y="-430.4517"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="795" label="phpnut">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-646.7349" y="514.6463"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="796" label="nateabele">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-645.6074" y="-428.69327"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="822" label="nacin">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="925.77637" y="-287.53436"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="823" label="staylor">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="968.7027" y="-128.44734"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="824" label="DrewAPicture">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-45.886974" y="-809.4489"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="825" label="SergeyBiryukov">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="410.3869" y="-878.8609"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+      <node id="826" label="ocean90">
+        <attvalues>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="258.07764" y="-941.7213"></viz:position>
+        <viz:color r="242" g="60" b="60"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="9" source="39" target="17" weight="2.0"></edge>
+      <edge id="437" source="39" target="20" weight="8.0"></edge>
+      <edge id="547" source="44" target="2" weight="133.0"></edge>
+      <edge id="525" source="44" target="5" weight="15.0"></edge>
+      <edge id="14" source="44" target="17" weight="2.0"></edge>
+      <edge id="726" source="44" target="19" weight="132.0"></edge>
+      <edge id="695" source="61" target="1" weight="48.0"></edge>
+      <edge id="742" source="61" target="19" weight="26.0"></edge>
+      <edge id="31" source="61" target="27" weight="864.0"></edge>
+      <edge id="723" source="63" target="19" weight="389.0"></edge>
+      <edge id="332" source="63" target="26" weight="216.0"></edge>
+      <edge id="33" source="63" target="27" weight="53.0"></edge>
+      <edge id="694" source="65" target="1" weight="65.0"></edge>
+      <edge id="812" source="65" target="9" weight="29.0"></edge>
+      <edge id="722" source="65" target="19" weight="1084.0"></edge>
+      <edge id="440" source="65" target="20" weight="7.0"></edge>
+      <edge id="182" source="65" target="24" weight="973.0"></edge>
+      <edge id="334" source="65" target="26" weight="16.0"></edge>
+      <edge id="35" source="65" target="27" weight="17.0"></edge>
+      <edge id="735" source="81" target="19" weight="48.0"></edge>
+      <edge id="51" source="81" target="27" weight="2.0"></edge>
+      <edge id="700" source="87" target="1" weight="24.0"></edge>
+      <edge id="727" source="87" target="19" weight="117.0"></edge>
+      <edge id="57" source="87" target="27" weight="2.0"></edge>
+      <edge id="839" source="91" target="9" weight="4.0"></edge>
+      <edge id="61" source="91" target="14" weight="970.0"></edge>
+      <edge id="631" source="121" target="3" weight="13968.0"></edge>
+      <edge id="768" source="121" target="7" weight="22.0"></edge>
+      <edge id="434" source="121" target="20" weight="10.0"></edge>
+      <edge id="91" source="121" target="29" weight="164.0"></edge>
+      <edge id="763" source="122" target="7" weight="40.0"></edge>
+      <edge id="92" source="122" target="29" weight="23.0"></edge>
+      <edge id="811" source="124" target="9" weight="2412.0"></edge>
+      <edge id="94" source="124" target="29" weight="5.0"></edge>
+      <edge id="652" source="126" target="3" weight="113.0"></edge>
+      <edge id="757" source="126" target="7" weight="56.0"></edge>
+      <edge id="96" source="126" target="29" weight="3.0"></edge>
+      <edge id="833" source="130" target="9" weight="6.0"></edge>
+      <edge id="100" source="130" target="29" weight="3.0"></edge>
+      <edge id="636" source="132" target="3" weight="412.0"></edge>
+      <edge id="762" source="132" target="7" weight="43.0"></edge>
+      <edge id="392" source="132" target="22" weight="44.0"></edge>
+      <edge id="102" source="132" target="29" weight="2.0"></edge>
+      <edge id="445" source="133" target="20" weight="6.0"></edge>
+      <edge id="103" source="133" target="29" weight="2.0"></edge>
+      <edge id="654" source="135" target="3" weight="107.0"></edge>
+      <edge id="754" source="135" target="7" weight="117.0"></edge>
+      <edge id="105" source="135" target="29" weight="2.0"></edge>
+      <edge id="207" source="149" target="24" weight="4.0"></edge>
+      <edge id="119" source="149" target="29"></edge>
+      <edge id="123" source="153" target="11" weight="8.0"></edge>
+      <edge id="407" source="153" target="22" weight="7.0"></edge>
+      <edge id="136" source="166" target="11" weight="2.0"></edge>
+      <edge id="324" source="166" target="21" weight="2.0"></edge>
+      <edge id="717" source="183" target="1" weight="7.0"></edge>
+      <edge id="153" source="183" target="16" weight="8.0"></edge>
+      <edge id="170" source="200" target="16"></edge>
+      <edge id="208" source="200" target="24" weight="4.0"></edge>
+      <edge id="173" source="203" target="16"></edge>
+      <edge id="602" source="203" target="28" weight="3363.0"></edge>
+      <edge id="728" source="237" target="19" weight="97.0"></edge>
+      <edge id="226" source="237" target="23" weight="3.0"></edge>
+      <edge id="210" source="237" target="24" weight="3.0"></edge>
+      <edge id="688" source="272" target="13" weight="8.0"></edge>
+      <edge id="246" source="272" target="18" weight="943.0"></edge>
+      <edge id="279" source="305" target="4" weight="9.0"></edge>
+      <edge id="338" source="305" target="26" weight="8.0"></edge>
+      <edge id="668" source="356" target="13" weight="31.0"></edge>
+      <edge id="331" source="356" target="26" weight="536.0"></edge>
+      <edge id="739" source="358" target="19" weight="33.0"></edge>
+      <edge id="335" source="358" target="26" weight="14.0"></edge>
+      <edge id="512" source="363" target="5" weight="36.0"></edge>
+      <edge id="341" source="363" target="26" weight="7.0"></edge>
+      <edge id="698" source="366" target="1" weight="33.0"></edge>
+      <edge id="344" source="366" target="26" weight="5.0"></edge>
+      <edge id="734" source="380" target="19" weight="55.0"></edge>
+      <edge id="358" source="380" target="26" weight="2.0"></edge>
+      <edge id="711" source="382" target="1" weight="9.0"></edge>
+      <edge id="736" source="382" target="19" weight="46.0"></edge>
+      <edge id="360" source="382" target="26" weight="2.0"></edge>
+      <edge id="637" source="413" target="3" weight="373.0"></edge>
+      <edge id="751" source="413" target="7" weight="3701.0"></edge>
+      <edge id="391" source="413" target="22" weight="948.0"></edge>
+      <edge id="522" source="415" target="5" weight="17.0"></edge>
+      <edge id="394" source="415" target="22" weight="16.0"></edge>
+      <edge id="444" source="421" target="20" weight="6.0"></edge>
+      <edge id="400" source="421" target="22" weight="9.0"></edge>
+      <edge id="752" source="423" target="7" weight="504.0"></edge>
+      <edge id="402" source="423" target="22" weight="8.0"></edge>
+      <edge id="817" source="429" target="9" weight="11.0"></edge>
+      <edge id="409" source="429" target="22" weight="7.0"></edge>
+      <edge id="644" source="437" target="3" weight="170.0"></edge>
+      <edge id="836" source="437" target="9" weight="5.0"></edge>
+      <edge id="417" source="437" target="22" weight="6.0"></edge>
+      <edge id="820" source="449" target="9" weight="9.0"></edge>
+      <edge id="429" source="449" target="20" weight="21.0"></edge>
+      <edge id="774" source="452" target="7" weight="17.0"></edge>
+      <edge id="432" source="452" target="20" weight="12.0"></edge>
+      <edge id="481" source="496" target="6" weight="3521.0"></edge>
+      <edge id="571" source="496" target="30" weight="1809.0"></edge>
+      <edge id="482" source="497" target="6" weight="2961.0"></edge>
+      <edge id="572" source="497" target="30" weight="1196.0"></edge>
+      <edge id="483" source="498" target="6" weight="2258.0"></edge>
+      <edge id="575" source="498" target="30" weight="465.0"></edge>
+      <edge id="484" source="499" target="6" weight="825.0"></edge>
+      <edge id="576" source="499" target="30" weight="219.0"></edge>
+      <edge id="486" source="501" target="6" weight="494.0"></edge>
+      <edge id="578" source="501" target="30" weight="95.0"></edge>
+      <edge id="487" source="502" target="6" weight="282.0"></edge>
+      <edge id="579" source="502" target="30" weight="88.0"></edge>
+      <edge id="491" source="506" target="6" weight="138.0"></edge>
+      <edge id="574" source="506" target="30" weight="503.0"></edge>
+      <edge id="510" source="525" target="6" weight="46.0"></edge>
+      <edge id="586" source="525" target="30" weight="33.0"></edge>
+      <edge id="515" source="529" target="5" weight="21.0"></edge>
+      <edge id="591" source="529" target="30" weight="21.0"></edge>
+      <edge id="704" source="558" target="1" weight="11.0"></edge>
+      <edge id="546" source="558" target="2" weight="144.0"></edge>
+      <edge id="632" source="632" target="3" weight="2076.0"></edge>
+      <edge id="778" source="632" target="7" weight="16.0"></edge>
+      <edge id="634" source="634" target="3" weight="636.0"></edge>
+      <edge id="818" source="634" target="9" weight="11.0"></edge>
+      <edge id="642" source="640" target="3" weight="197.0"></edge>
+      <edge id="779" source="640" target="7" weight="16.0"></edge>
+      <edge id="655" source="650" target="3" weight="107.0"></edge>
+      <edge id="770" source="650" target="7" weight="20.0"></edge>
+      <edge id="691" source="684" target="1" weight="3853.0"></edge>
+      <edge id="721" source="684" target="19" weight="9414.0"></edge>
+      <edge id="692" source="685" target="1" weight="105.0"></edge>
+      <edge id="745" source="685" target="19" weight="20.0"></edge>
+      <edge id="693" source="686" target="1" weight="92.0"></edge>
+      <edge id="729" source="686" target="19" weight="96.0"></edge>
+      <edge id="701" source="690" target="1" weight="14.0"></edge>
+      <edge id="724" source="690" target="19" weight="253.0"></edge>
+      <edge id="702" source="691" target="1" weight="13.0"></edge>
+      <edge id="731" source="691" target="19" weight="66.0"></edge>
+      <edge id="710" source="698" target="1" weight="9.0"></edge>
+      <edge id="725" source="698" target="19" weight="184.0"></edge>
+      <edge id="181" source="211" target="24" weight="2376.0"></edge>
+      <edge id="241" source="267" target="18" weight="8582.0"></edge>
+      <edge id="242" source="268" target="18" weight="3750.0"></edge>
+      <edge id="243" source="269" target="18" weight="2433.0"></edge>
+      <edge id="244" source="270" target="18" weight="2196.0"></edge>
+      <edge id="245" source="271" target="18" weight="2145.0"></edge>
+      <edge id="301" source="327" target="21" weight="1705.0"></edge>
+      <edge id="361" source="383" target="25" weight="2526.0"></edge>
+      <edge id="421" source="441" target="20" weight="6037.0"></edge>
+      <edge id="451" source="466" target="10" weight="7620.0"></edge>
+      <edge id="452" source="467" target="10" weight="1883.0"></edge>
+      <edge id="541" source="553" target="2" weight="3412.0"></edge>
+      <edge id="601" source="603" target="28" weight="5001.0"></edge>
+      <edge id="603" source="604" target="28" weight="2351.0"></edge>
+      <edge id="604" source="605" target="28" weight="2048.0"></edge>
+      <edge id="605" source="606" target="28" weight="1890.0"></edge>
+      <edge id="606" source="607" target="28" weight="1872.0"></edge>
+      <edge id="607" source="608" target="28" weight="1432.0"></edge>
+      <edge id="608" source="609" target="28" weight="1373.0"></edge>
+      <edge id="609" source="610" target="28" weight="1282.0"></edge>
+      <edge id="610" source="611" target="28" weight="1178.0"></edge>
+      <edge id="611" source="612" target="28" weight="1133.0"></edge>
+      <edge id="612" source="613" target="28" weight="1110.0"></edge>
+      <edge id="633" source="633" target="3" weight="1249.0"></edge>
+      <edge id="781" source="740" target="12" weight="2166.0"></edge>
+      <edge id="782" source="741" target="12" weight="1644.0"></edge>
+      <edge id="783" source="742" target="12" weight="1488.0"></edge>
+      <edge id="841" source="792" target="15" weight="11556.0"></edge>
+      <edge id="842" source="793" target="15" weight="5505.0"></edge>
+      <edge id="843" source="794" target="15" weight="1710.0"></edge>
+      <edge id="844" source="795" target="15" weight="1565.0"></edge>
+      <edge id="845" source="796" target="15" weight="1055.0"></edge>
+      <edge id="871" source="822" target="8" weight="2258.0"></edge>
+      <edge id="872" source="823" target="8" weight="2040.0"></edge>
+      <edge id="873" source="824" target="8" weight="1568.0"></edge>
+      <edge id="874" source="825" target="8" weight="1546.0"></edge>
+      <edge id="875" source="826" target="8" weight="1055.0"></edge>
+    </edges>
+  </graph>
+</gexf>
