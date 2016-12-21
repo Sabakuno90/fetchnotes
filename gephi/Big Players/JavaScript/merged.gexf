@@ -1,0 +1,1535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2016-12-19">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="size" title="size" type="string"></attribute>
+      <attribute id="updated" title="updated" type="string"></attribute>
+      <attribute id="fork" title="fork" type="string"></attribute>
+      <attribute id="forks" title="forks" type="string"></attribute>
+      <attribute id="indegree" title="In-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="owner" title="owner" type="string"></attribute>
+      <attribute id="issues" title="issues" type="string"></attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="stars" title="stars" type="string"></attribute>
+      <attribute id="reposize" title="RepoSize" type="integer"></attribute>
+      <attribute id="created" title="created" type="string"></attribute>
+      <attribute id="outdegree" title="Out-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="language" title="language" type="string"></attribute>
+      <attribute id="type" title="type" type="string"></attribute>
+    </attributes>
+    <nodes>
+      <node id="16" label="nodejs/node">
+        <attvalues>
+          <attvalue for="size" value="249801"></attvalue>
+          <attvalue for="updated" value="2016-12-14T08:36:27Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="5325"></attvalue>
+          <attvalue for="indegree" value="3"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="issues" value="1014"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="stars" value="29800"></attvalue>
+          <attvalue for="reposize" value="249801"></attvalue>
+          <attvalue for="created" value="2014-11-26T19:57:11Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="59.175976"></viz:size>
+        <viz:position x="-349.46054" y="-708.0748"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="2" label="twbs/bootstrap">
+        <attvalues>
+          <attvalue for="size" value="217052"></attvalue>
+          <attvalue for="updated" value="2016-12-14T08:59:46Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="47424"></attvalue>
+          <attvalue for="indegree" value="3"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="issues" value="297"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="stars" value="104502"></attvalue>
+          <attvalue for="reposize" value="217052"></attvalue>
+          <attvalue for="created" value="2011-07-29T21:19:00Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="51.934437"></viz:size>
+        <viz:position x="242.43523" y="7.980905"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="15" label="Semantic-Org/Semantic-UI">
+        <attvalues>
+          <attvalue for="size" value="187095"></attvalue>
+          <attvalue for="updated" value="2016-12-14T08:09:49Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="3432"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="issues" value="1021"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="stars" value="30063"></attvalue>
+          <attvalue for="reposize" value="187095"></attvalue>
+          <attvalue for="created" value="2013-04-08T23:32:04Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="45.31028"></viz:size>
+        <viz:position x="-301.40137" y="-553.50275"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="30" label="Dogfalo/materialize">
+        <attvalues>
+          <attvalue for="size" value="159024"></attvalue>
+          <attvalue for="updated" value="2016-12-14T05:53:31Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="3377"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="owner" value="User"></attvalue>
+          <attvalue for="issues" value="1347"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="stars" value="23314"></attvalue>
+          <attvalue for="reposize" value="159024"></attvalue>
+          <attvalue for="created" value="2014-09-12T19:35:38Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="39.103157"></viz:size>
+        <viz:position x="-657.3865" y="-638.7075"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="4" label="facebook/react">
+        <attvalues>
+          <attvalue for="size" value="111138"></attvalue>
+          <attvalue for="updated" value="2016-12-14T09:05:50Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="10032"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="issues" value="650"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="stars" value="55713"></attvalue>
+          <attvalue for="reposize" value="111138"></attvalue>
+          <attvalue for="created" value="2013-05-24T16:15:54Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="28.514496"></viz:size>
+        <viz:position x="-689.01263" y="252.81984"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="9" label="facebook/react-native">
+        <attvalues>
+          <attvalue for="size" value="107377"></attvalue>
+          <attvalue for="updated" value="2016-12-14T09:00:34Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="9483"></attvalue>
+          <attvalue for="indegree" value="4"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="issues" value="894"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="stars" value="41567"></attvalue>
+          <attvalue for="reposize" value="107377"></attvalue>
+          <attvalue for="created" value="2015-01-09T18:10:16Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="45.205505"></viz:size>
+        <viz:position x="-741.1205" y="532.3657"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="5" label="angular/angular.js">
+        <attvalues>
+          <attvalue for="size" value="84698"></attvalue>
+          <attvalue for="updated" value="2016-12-14T08:14:41Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="26705"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="issues" value="853"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="stars" value="53859"></attvalue>
+          <attvalue for="reposize" value="84698"></attvalue>
+          <attvalue for="created" value="2010-01-06T00:34:37Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="22.668024"></viz:size>
+        <viz:position x="745.37274" y="-69.83794"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="12" label="h5bp/html5-boilerplate">
+        <attvalues>
+          <attvalue for="size" value="76985"></attvalue>
+          <attvalue for="updated" value="2016-12-14T09:00:41Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="8927"></attvalue>
+          <attvalue for="indegree" value="3"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="issues" value="22"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="stars" value="36038"></attvalue>
+          <attvalue for="reposize" value="76985"></attvalue>
+          <attvalue for="created" value="2010-01-24T18:03:24Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="33.51286"></viz:size>
+        <viz:position x="135.33128" y="169.73482"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="11" label="meteor/meteor">
+        <attvalues>
+          <attvalue for="size" value="66012"></attvalue>
+          <attvalue for="updated" value="2016-12-14T09:06:04Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="4495"></attvalue>
+          <attvalue for="indegree" value="7"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="issues" value="840"></attvalue>
+          <attvalue for="degree" value="7"></attvalue>
+          <attvalue for="stars" value="36186"></attvalue>
+          <attvalue for="reposize" value="66012"></attvalue>
+          <attvalue for="created" value="2012-01-19T01:58:17Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="18.536133"></viz:size>
+        <viz:position x="-576.43176" y="64.51618"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="3" label="d3/d3">
+        <attvalues>
+          <attvalue for="size" value="64349"></attvalue>
+          <attvalue for="updated" value="2016-12-14T09:03:52Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="15516"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="issues" value="85"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="stars" value="57937"></attvalue>
+          <attvalue for="reposize" value="64349"></attvalue>
+          <attvalue for="created" value="2010-09-27T17:22:42Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="18.16841"></viz:size>
+        <viz:position x="-407.21597" y="-400.18167"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="8" label="jquery/jquery">
+        <attvalues>
+          <attvalue for="size" value="46054"></attvalue>
+          <attvalue for="updated" value="2016-12-14T09:00:52Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="11816"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="issues" value="83"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="stars" value="42621"></attvalue>
+          <attvalue for="reposize" value="46054"></attvalue>
+          <attvalue for="created" value="2009-04-03T15:20:14Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="14.122978"></viz:size>
+        <viz:position x="580.1264" y="412.91907"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="24" label="jashkenas/backbone">
+        <attvalues>
+          <attvalue for="size" value="44656"></attvalue>
+          <attvalue for="updated" value="2016-12-14T09:06:51Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="5649"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="owner" value="User"></attvalue>
+          <attvalue for="issues" value="75"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="stars" value="25845"></attvalue>
+          <attvalue for="reposize" value="44656"></attvalue>
+          <attvalue for="created" value="2010-09-30T19:41:28Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="13.813848"></viz:size>
+        <viz:position x="-175.6645" y="686.33765"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="1" label="FreeCodeCamp/FreeCodeCamp">
+        <attvalues>
+          <attvalue for="size" value="27246"></attvalue>
+          <attvalue for="updated" value="2016-12-14T09:07:38Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="8164"></attvalue>
+          <attvalue for="indegree" value="3"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="issues" value="197"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="stars" value="207735"></attvalue>
+          <attvalue for="reposize" value="27246"></attvalue>
+          <attvalue for="created" value="2014-12-24T17:49:19Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="9.964109"></viz:size>
+        <viz:position x="710.9178" y="-239.98053"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="19" label="moment/moment">
+        <attvalues>
+          <attvalue for="size" value="19764"></attvalue>
+          <attvalue for="updated" value="2016-12-14T09:03:07Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="4153"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="issues" value="200"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="stars" value="29065"></attvalue>
+          <attvalue for="reposize" value="19764"></attvalue>
+          <attvalue for="created" value="2011-03-01T02:46:06Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="8.309672"></viz:size>
+        <viz:position x="-114.33011" y="-40.18769"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="10" label="vuejs/vue">
+        <attvalues>
+          <attvalue for="size" value="15907"></attvalue>
+          <attvalue for="updated" value="2016-12-14T09:01:16Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="4396"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="issues" value="53"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="stars" value="36575"></attvalue>
+          <attvalue for="reposize" value="15907"></attvalue>
+          <attvalue for="created" value="2013-07-29T03:24:51Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="7.4568043"></viz:size>
+        <viz:position x="-917.6018" y="13.092124"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="18" label="socketio/socket.io">
+        <attvalues>
+          <attvalue for="size" value="14324"></attvalue>
+          <attvalue for="updated" value="2016-12-14T08:15:12Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="5640"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="issues" value="476"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="stars" value="29193"></attvalue>
+          <attvalue for="reposize" value="14324"></attvalue>
+          <attvalue for="created" value="2010-03-11T18:24:48Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="7.1067677"></viz:size>
+        <viz:position x="196.73587" y="-699.7753"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="20" label="expressjs/express">
+        <attvalues>
+          <attvalue for="size" value="13813"></attvalue>
+          <attvalue for="updated" value="2016-12-14T08:35:51Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="5308"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="issues" value="137"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="stars" value="28930"></attvalue>
+          <attvalue for="reposize" value="13813"></attvalue>
+          <attvalue for="created" value="2009-06-26T18:56:01Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="6.9937744"></viz:size>
+        <viz:position x="243.67522" y="-867.1033"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="14" label="impress/impress.js">
+        <attvalues>
+          <attvalue for="size" value="12519"></attvalue>
+          <attvalue for="updated" value="2016-12-14T09:00:52Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="6450"></attvalue>
+          <attvalue for="indegree" value="3"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="issues" value="57"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="stars" value="30444"></attvalue>
+          <attvalue for="reposize" value="12519"></attvalue>
+          <attvalue for="created" value="2011-12-28T22:23:19Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="8.710993"></viz:size>
+        <viz:position x="56.037605" y="2.3770964"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="27" label="blueimp/jQuery-File-Upload">
+        <attvalues>
+          <attvalue for="size" value="12381"></attvalue>
+          <attvalue for="updated" value="2016-12-14T08:15:23Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="6900"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="owner" value="User"></attvalue>
+          <attvalue for="issues" value="51"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="stars" value="25495"></attvalue>
+          <attvalue for="reposize" value="12381"></attvalue>
+          <attvalue for="created" value="2010-12-01T15:35:32Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="8.657901"></viz:size>
+        <viz:position x="198.0015" y="338.47903"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="6" label="getify/You-Dont-Know-JS">
+        <attvalues>
+          <attvalue for="size" value="7737"></attvalue>
+          <attvalue for="updated" value="2016-12-14T09:07:50Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="6966"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="owner" value="User"></attvalue>
+          <attvalue for="issues" value="95"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="stars" value="46618"></attvalue>
+          <attvalue for="reposize" value="7737"></attvalue>
+          <attvalue for="created" value="2013-11-16T02:37:24Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="5.650235"></viz:size>
+        <viz:position x="730.3019" y="-567.3451"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="13" label="hakimel/reveal.js">
+        <attvalues>
+          <attvalue for="size" value="7160"></attvalue>
+          <attvalue for="updated" value="2016-12-14T09:00:49Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="9647"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="owner" value="User"></attvalue>
+          <attvalue for="issues" value="271"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="stars" value="31796"></attvalue>
+          <attvalue for="reposize" value="7160"></attvalue>
+          <attvalue for="created" value="2011-06-07T18:54:22Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="5.5226483"></viz:size>
+        <viz:position x="-393.2281" y="90.50151"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="23" label="reactjs/redux">
+        <attvalues>
+          <attvalue for="size" value="4514"></attvalue>
+          <attvalue for="updated" value="2016-12-14T09:06:43Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="4548"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="issues" value="46"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="stars" value="26320"></attvalue>
+          <attvalue for="reposize" value="4514"></attvalue>
+          <attvalue for="created" value="2015-05-29T23:53:15Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="4.937558"></viz:size>
+        <viz:position x="-822.5231" y="378.27737"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="7" label="airbnb/javascript">
+        <attvalues>
+          <attvalue for="size" value="1944"></attvalue>
+          <attvalue for="updated" value="2016-12-14T08:58:57Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="8493"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="issues" value="60"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="stars" value="44414"></attvalue>
+          <attvalue for="reposize" value="1944"></attvalue>
+          <attvalue for="created" value="2012-11-01T23:13:50Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="4.642495"></viz:size>
+        <viz:position x="550.8974" y="-558.91174"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="29" label="gulpjs/gulp">
+        <attvalues>
+          <attvalue for="size" value="745"></attvalue>
+          <attvalue for="updated" value="2016-12-14T09:07:12Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="3400"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="issues" value="28"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="stars" value="24508"></attvalue>
+          <attvalue for="reposize" value="745"></attvalue>
+          <attvalue for="created" value="2013-07-04T05:26:06Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="4.181206"></viz:size>
+        <viz:position x="682.11816" y="268.74615"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="26" label="resume/resume.github.com">
+        <attvalues>
+          <attvalue for="size" value="411"></attvalue>
+          <attvalue for="updated" value="2016-12-14T09:06:58Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="679"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="issues" value="21"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="stars" value="25539"></attvalue>
+          <attvalue for="reposize" value="411"></attvalue>
+          <attvalue for="created" value="2011-02-06T13:39:55Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="4.0527077"></viz:size>
+        <viz:position x="300.0467" y="-310.13474"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="64" label="cvrebert">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="182.11533" y="-161.13266"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="95" label="PeterDaveHello">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="373.6107" y="-640.2147"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="116" label="bardiharborow">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="248.24179" y="-506.2249"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="123" label="jdalton">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="19.468395" y="347.89282"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="144" label="jasondavies">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-37.496353" y="-382.22702"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="147" label="kkirsche">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="92.02852" y="523.513"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="151" label="yyx990803">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-718.9804" y="-259.7712"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="197" label="ljharb">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="831.386" y="-390.03195"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="211" label="rauchg">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="18.999235" y="-741.2798"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="220" label="dshaw">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="70.80164" y="-559.8849"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="227" label="tj">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="130.92812" y="-368.08295"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="230" label="defunctzombie">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="76.45995" y="-911.0146"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="235" label="kapouer">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="569.1555" y="-724.75165"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="238" label="TooTallNate">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-297.9564" y="-873.87354"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="255" label="trevnorris">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-347.27585" y="-240.51685"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="256" label="dandv">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="outdegree" value="5"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-592.7102" y="-408.3896"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="261" label="splendido">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="outdegree" value="3"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-499.71753" y="-571.82697"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="268" label="jisaacks">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="outdegree" value="3"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-48.972183" y="165.56763"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="311" label="Fishrock123">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-106.95646" y="-906.80676"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="355" label="mathiasbynens">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="319.92276" y="198.08826"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="362" label="greenkeeperio-bot">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="373.3831" y="-142.02274"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="363" label="XhmikosR">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="264.40594" y="508.55798"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="410" label="pkozlowski-opensource">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="562.05475" y="-108.094574"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="448" label="mgol">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="498.21045" y="232.60815"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="464" label="jbedard">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="760.51715" y="108.93707"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="556" label="gaearon">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-610.9021" y="410.558"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="561" label="acdlite">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-320.3251" y="266.4912"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="576" label="webpro">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-348.06992" y="641.31055"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="616" label="vjeux">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-757.9805" y="85.75772"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="635" label="spicyj">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-510.45932" y="242.80804"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="639" label="cpojer">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-893.3672" y="210.03932"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="643" label="yungsters">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-624.26025" y="675.74304"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="679" label="ssorallen">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="422.00073" y="-440.88583"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="789" label="benjamn">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-410.41324" y="411.16763"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="17" label="mrdoob/three.js">
+        <attvalues>
+          <attvalue for="size" value="434423"></attvalue>
+          <attvalue for="updated" value="2016-12-14T09:01:00Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="10218"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="owner" value="User"></attvalue>
+          <attvalue for="issues" value="868"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="stars" value="29432"></attvalue>
+          <attvalue for="reposize" value="434423"></attvalue>
+          <attvalue for="created" value="2010-03-23T18:58:01Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="100.00001"></viz:size>
+        <viz:position x="829.4997" y="372.6774"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="28" label="zurb/foundation-sites">
+        <attvalues>
+          <attvalue for="size" value="119177"></attvalue>
+          <attvalue for="updated" value="2016-12-14T09:07:09Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="5374"></attvalue>
+          <attvalue for="indegree" value="4"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="issues" value="352"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="stars" value="24570"></attvalue>
+          <attvalue for="reposize" value="119177"></attvalue>
+          <attvalue for="created" value="2011-10-13T23:05:42Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="30.292099"></viz:size>
+        <viz:position x="167.48273" y="886.9056"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="22" label="adobe/brackets">
+        <attvalues>
+          <attvalue for="size" value="86139"></attvalue>
+          <attvalue for="updated" value="2016-12-14T09:03:33Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="5611"></attvalue>
+          <attvalue for="indegree" value="5"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="issues" value="1788"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="stars" value="26560"></attvalue>
+          <attvalue for="reposize" value="86139"></attvalue>
+          <attvalue for="created" value="2011-12-07T21:14:40Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="22.986662"></viz:size>
+        <viz:position x="737.948" y="507.94913"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="21" label="chartjs/Chart.js">
+        <attvalues>
+          <attvalue for="size" value="7388"></attvalue>
+          <attvalue for="updated" value="2016-12-14T08:02:14Z"></attvalue>
+          <attvalue for="fork" value="false"></attvalue>
+          <attvalue for="forks" value="7244"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="owner" value="Organization"></attvalue>
+          <attvalue for="issues" value="231"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="stars" value="26811"></attvalue>
+          <attvalue for="reposize" value="7388"></attvalue>
+          <attvalue for="created" value="2013-03-17T23:56:36Z"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="language" value="JavaScript"></attvalue>
+          <attvalue for="type" value="repo"></attvalue>
+        </attvalues>
+        <viz:size value="5.5730634"></viz:size>
+        <viz:position x="-883.30597" y="-150.88744"></viz:position>
+        <viz:color r="165" g="38" b="38"></viz:color>
+      </node>
+      <node id="181" label="getify">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="409.93805" y="-814.72394"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="240" label="mbostock">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-107.23288" y="-565.0868"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="269" label="etimberg">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-505.88647" y="554.2221"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="324" label="jlukic">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-507.4494" y="-772.0386"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="412" label="jashkenas">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-7.0654335" y="716.7741"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="440" label="jeresig">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="391.58667" y="385.08298"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="469" label="ichernev">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-78.083305" y="523.0005"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="497" label="Dogfalo">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-755.0923" y="-493.5143"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="498" label="acburst">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-859.82996" y="-345.2695"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="526" label="redmunds">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="338.8987" y="847.5969"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="527" label="jasonsanjose">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="503.79807" y="762.61914"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="528" label="njx">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="919.79224" y="-3.0592928"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="529" label="peterflynn">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="894.55365" y="-196.25446"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="530" label="gruehle">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="642.70935" y="648.80646"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="586" label="zurbchris">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-312.34225" y="846.8895"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="587" label="gakimball">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-154.98755" y="885.40076"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="588" label="mrsweaters">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="5.684218" y="906.98944"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="589" label="mhayes">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="164.38844" y="703.24976"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="646" label="hakimel">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-154.09924" y="329.32208"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="703" label="mdo">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="640.42944" y="-400.5833"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="704" label="fat">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="16.028112" y="-193.9813"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="728" label="IgorMinar">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="589.4869" y="74.10275"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="755" label="QuincyLarson">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="418.35333" y="37.34119"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="756" label="BerkeleyTrue">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="505.76654" y="-279.59354"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="757" label="sahat">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="901.3502" y="198.79274"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="784" label="zpao">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-472.15033" y="776.0883"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="808" label="mrdoob">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="341.81244" y="666.613"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="809" label="alteredq">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="482.34717" y="557.72003"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="838" label="ry">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-161.69234" y="-225.41063"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="839" label="bnoordhuis">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-214.42876" y="-400.2044"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="840" label="isaacs">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-163.42845" y="-733.253"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="865" label="glasser">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-212.42583" y="116.77454"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="866" label="dgreensp">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-292.93924" y="-68.546104"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="867" label="Slava">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-250.29568" y="488.58008"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="868" label="stubailo">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-542.3361" y="-238.54182"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="869" label="avital">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-483.1555" y="-83.42492"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+      <node id="870" label="n1mmy">
+        <attvalues>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="type" value="user"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-698.0953" y="-85.53694"></viz:position>
+        <viz:color r="38" g="165" b="165"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="764" source="362" target="1" weight="66.0"></edge>
+      <edge id="714" source="679" target="2" weight="17.0"></edge>
+      <edge id="694" source="363" target="2" weight="572.0"></edge>
+      <edge id="699" source="147" target="2" weight="74.0"></edge>
+      <edge id="708" source="116" target="2" weight="26.0"></edge>
+      <edge id="692" source="64" target="2" weight="2759.0"></edge>
+      <edge id="240" source="268" target="3" weight="3.0"></edge>
+      <edge id="233" source="261" target="3" weight="4.0"></edge>
+      <edge id="228" source="256" target="3" weight="5.0"></edge>
+      <edge id="227" source="255" target="3" weight="6.0"></edge>
+      <edge id="212" source="144" target="3" weight="776.0"></edge>
+      <edge id="789" source="789" target="4" weight="140.0"></edge>
+      <edge id="791" source="643" target="4" weight="109.0"></edge>
+      <edge id="793" source="639" target="4" weight="65.0"></edge>
+      <edge id="782" source="635" target="4" weight="1158.0"></edge>
+      <edge id="788" source="616" target="4" weight="203.0"></edge>
+      <edge id="794" source="561" target="4" weight="60.0"></edge>
+      <edge id="786" source="556" target="4" weight="315.0"></edge>
+      <edge id="734" source="464" target="5" weight="76.0"></edge>
+      <edge id="732" source="448" target="5" weight="87.0"></edge>
+      <edge id="739" source="410" target="5" weight="48.0"></edge>
+      <edge id="167" source="197" target="6" weight="3.0"></edge>
+      <edge id="667" source="679" target="7" weight="13.0"></edge>
+      <edge id="661" source="197" target="7" weight="362.0"></edge>
+      <edge id="445" source="464" target="8" weight="12.0"></edge>
+      <edge id="429" source="448" target="8" weight="218.0"></edge>
+      <edge id="449" source="355" target="8" weight="9.0"></edge>
+      <edge id="628" source="643" target="9" weight="60.0"></edge>
+      <edge id="624" source="639" target="9" weight="83.0"></edge>
+      <edge id="620" source="635" target="9" weight="106.0"></edge>
+      <edge id="601" source="616" target="9" weight="430.0"></edge>
+      <edge id="121" source="151" target="10" weight="1294.0"></edge>
+      <edge id="873" source="789" target="11" weight="1641.0"></edge>
+      <edge id="895" source="256" target="11" weight="32.0"></edge>
+      <edge id="896" source="151" target="11" weight="26.0"></edge>
+      <edge id="342" source="363" target="12" weight="12.0"></edge>
+      <edge id="341" source="362" target="12" weight="12.0"></edge>
+      <edge id="334" source="355" target="12" weight="58.0"></edge>
+      <edge id="646" source="576" target="13" weight="4.0"></edge>
+      <edge id="638" source="256" target="13" weight="11.0"></edge>
+      <edge id="117" source="147" target="14"></edge>
+      <edge id="114" source="144" target="14"></edge>
+      <edge id="93" source="123" target="14" weight="6.0"></edge>
+      <edge id="305" source="261" target="15" weight="20.0"></edge>
+      <edge id="325" source="256" target="15" weight="3.0"></edge>
+      <edge id="857" source="311" target="16" weight="118.0"></edge>
+      <edge id="848" source="255" target="16" weight="331.0"></edge>
+      <edge id="850" source="238" target="16" weight="197.0"></edge>
+      <edge id="208" source="238" target="18" weight="2.0"></edge>
+      <edge id="205" source="235" target="18" weight="2.0"></edge>
+      <edge id="200" source="230" target="18" weight="3.0"></edge>
+      <edge id="197" source="227" target="18" weight="4.0"></edge>
+      <edge id="190" source="220" target="18" weight="17.0"></edge>
+      <edge id="181" source="211" target="18" weight="1023.0"></edge>
+      <edge id="209" source="95" target="18" weight="2.0"></edge>
+      <edge id="480" source="268" target="19" weight="6.0"></edge>
+      <edge id="478" source="256" target="19" weight="6.0"></edge>
+      <edge id="287" source="311" target="20" weight="3.0"></edge>
+      <edge id="285" source="235" target="20" weight="4.0"></edge>
+      <edge id="274" source="230" target="20" weight="70.0"></edge>
+      <edge id="271" source="227" target="20" weight="3881.0"></edge>
+      <edge id="297" source="220" target="20" weight="2.0"></edge>
+      <edge id="280" source="211" target="20" weight="7.0"></edge>
+      <edge id="561" source="576" target="23" weight="7.0"></edge>
+      <edge id="546" source="561" target="23" weight="47.0"></edge>
+      <edge id="541" source="556" target="23" weight="1055.0"></edge>
+      <edge id="414" source="268" target="24" weight="6.0"></edge>
+      <edge id="406" source="123" target="24" weight="11.0"></edge>
+      <edge id="86" source="116" target="26"></edge>
+      <edge id="65" source="95" target="26" weight="6.0"></edge>
+      <edge id="34" source="64" target="27" weight="2.0"></edge>
+      <edge id="389" source="410" target="29" weight="3.0"></edge>
+      <edge id="502" source="261" target="30" weight="4.0"></edge>
+      <edge id="751" source="755" target="1" weight="2329.0"></edge>
+      <edge id="752" source="756" target="1" weight="1687.0"></edge>
+      <edge id="753" source="757" target="1" weight="1261.0"></edge>
+      <edge id="691" source="703" target="2" weight="7751.0"></edge>
+      <edge id="693" source="704" target="2" weight="1185.0"></edge>
+      <edge id="211" source="240" target="3" weight="2911.0"></edge>
+      <edge id="781" source="784" target="4" weight="1758.0"></edge>
+      <edge id="721" source="728" target="5" weight="1438.0"></edge>
+      <edge id="151" source="181" target="6" weight="1151.0"></edge>
+      <edge id="421" source="440" target="8" weight="1714.0"></edge>
+      <edge id="871" source="865" target="11" weight="3650.0"></edge>
+      <edge id="872" source="866" target="11" weight="1977.0"></edge>
+      <edge id="874" source="867" target="11" weight="1533.0"></edge>
+      <edge id="875" source="868" target="11" weight="1317.0"></edge>
+      <edge id="876" source="869" target="11" weight="1097.0"></edge>
+      <edge id="877" source="870" target="11" weight="1054.0"></edge>
+      <edge id="631" source="646" target="13" weight="1358.0"></edge>
+      <edge id="301" source="324" target="15" weight="5176.0"></edge>
+      <edge id="841" source="838" target="16" weight="3021.0"></edge>
+      <edge id="842" source="839" target="16" weight="1929.0"></edge>
+      <edge id="843" source="840" target="16" weight="1647.0"></edge>
+      <edge id="811" source="808" target="17" weight="9156.0"></edge>
+      <edge id="812" source="809" target="17" weight="1753.0"></edge>
+      <edge id="451" source="469" target="19" weight="1093.0"></edge>
+      <edge id="241" source="269" target="21" weight="1138.0"></edge>
+      <edge id="511" source="526" target="22" weight="1840.0"></edge>
+      <edge id="512" source="527" target="22" weight="1724.0"></edge>
+      <edge id="513" source="528" target="22" weight="1433.0"></edge>
+      <edge id="514" source="529" target="22" weight="1064.0"></edge>
+      <edge id="515" source="530" target="22" weight="1003.0"></edge>
+      <edge id="391" source="412" target="24" weight="1337.0"></edge>
+      <edge id="571" source="586" target="28" weight="1831.0"></edge>
+      <edge id="572" source="587" target="28" weight="1535.0"></edge>
+      <edge id="573" source="588" target="28" weight="1332.0"></edge>
+      <edge id="574" source="589" target="28" weight="1008.0"></edge>
+      <edge id="481" source="497" target="30" weight="1160.0"></edge>
+      <edge id="482" source="498" target="30" weight="1081.0"></edge>
+    </edges>
+  </graph>
+</gexf>
